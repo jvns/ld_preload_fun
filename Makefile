@@ -4,3 +4,4 @@ all:
 	gcc -shared -fPIC unrandom.c -o unrandom.so
 	gcc -shared -fPIC unfork.c -o unfork.so
 	gcc -shared -fPIC undlopen.c -o undlopen.so
+	gcc main.c -o main
